@@ -1,0 +1,60 @@
+/*
+ learn about derective session:-
+@layer base{
+    h1{
+        font-size:50px;
+    }
+    button{
+        border:1px solid #999;
+        padding:3px
+    }
+}*/
+/*we can apply tailwind class
+@layer base{
+    h1{
+@apply text-10xl;
+    }
+    button{
+        @apply: border;
+        @apply:p-3;
+    }
+}*/
+/*learn about custom button*/
+/*
+@layer components{
+    .btn{
+        @apply border border-slate-600 rounded px-5 py-1.5 hover:bg-slate-200
+    }
+    .btn-primary{
+        @apply bg-amber-950 hover:bg-amber-600 text-white border-amber-300
+    }
+    .btn-danger{
+        @apply bg-blue-950 hover:bg-blue-600 text-white border-blue-400
+    }
+    .btn-warning{
+        @apply bg-green-950 hover:bg-green-600 text-white border-green-300
+    }
+    .btn-sucess{
+        @apply bg-pink-950 hover:bg-pink-600 text-white border-pink-300
+    }
+    .btn-info{
+        @apply bg-red-950 hover:bg-red-600 text-white border-blue-500
+    }
+    .btn-basic{
+        @apply bg-yellow-950 hover:bg-yellow-600 text-white border-blue-500
+    }
+    .btn-secondary{
+        @apply bg-yellow-950 hover:bg-yellow-600 text-white border-blue-500
+    }
+    .btn-dark{
+        @apply bg-yellow-950 hover:bg-yellow-600 text-white border-blue-500
+    }
+
+
+}
+    /*gallary*/
+/*@layer components{
+    .img-gallary{
+        @apply w-80  rounded border-4 border-blue-300 hover:border-2 hover:boeder-blue hover:scale-110 transition duration-1000 hover:brightness-125
+    }
+}
